@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Website pribadi Desta Al Ezarianto, mahasiswa Teknik Informatika yang tertarik pada teknologi, pemrograman, jaringan komputer, dan futsal.">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Desta Al Ezarianto | Personal Website">
+<meta property="og:description" content="Profil, perjalanan belajar teknologi, dan galeri foto Desta Al Ezarianto.">
+<title>Desta Al Ezarianto | Personal Website</title>
+<style>
+:root{color-scheme:light;--ink:#1c2430;--muted:#667085;--line:#e7e9ee;--paper:#fbfaf8;--white:#fff;--accent:#315c52;--soft:#eaf1ed}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit}.wrap{width:min(1040px,calc(100% - 36px));margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line);gap:14px}.brand{font-weight:750;letter-spacing:.02em}.navlinks{display:flex;gap:18px;font-size:.92rem;color:var(--muted)}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding:68px 0 58px}.eyebrow{color:var(--accent);font-size:.78rem;font-weight:750;text-transform:uppercase;letter-spacing:.16em}
+h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:1.02;letter-spacing:-.055em;margin:14px 0 22px;font-weight:760}.lead{font-size:1.08rem;max-width:550px;color:#596273}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}.tag{border:1px solid #d9e3dd;background:var(--soft);color:#315c52;border-radius:99px;padding:6px 12px;font-size:.84rem}
+.hero-photo{width:100%;height:470px;object-fit:cover;object-position:center 30%;border-radius:8px;background:#ecebe6}
+section{padding:46px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:20px}h2{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;letter-spacing:-.035em;margin:0 0 8px}.section-head p,.about p{color:var(--muted);margin:0;max-width:650px}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:32px}.small-label{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);font-weight:750}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.tile{margin:0;background:var(--white);border:1px solid var(--line);padding:9px;border-radius:10px}.tile img{display:block;width:100%;height:350px;object-fit:cover;border-radius:5px}.tile figcaption{padding:10px 4px 3px;font-size:.9rem;color:var(--muted)}
+.project{padding:22px;border:1px solid var(--line);border-radius:10px;background:var(--white)}.project p{color:var(--muted);margin-bottom:0}
+footer{padding:28px 0 36px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:720px){.navlinks{gap:10px;font-size:.82rem}.hero{grid-template-columns:1fr;gap:24px;padding:44px 0}.hero-photo{height:420px;order:-1}.about-grid{grid-template-columns:1fr;gap:14px}.section-head{display:block}.tile img{height:280px}}
+@media(max-width:430px){.wrap{width:min(100% - 26px,1040px)}.brand{font-size:.9rem}.navlinks{gap:8px}.navlinks a{font-size:.78rem}.hero-photo{height:360px}.gallery{grid-template-columns:1fr}.tile img{height:auto;max-height:480px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Navigasi utama">
+  <div class="brand">D.A.E.</div>
+  <div class="navlinks"><a href="#tentang">Tentang</a><a href="#galeri">Galeri</a><a href="#minat">Minat</a></div>
+</nav>
+<main>
+<header class="hero">
+  <div>
+    <div class="eyebrow">Personal website</div>
+    <h1>Desta Al<br>Ezarianto.</h1>
+    <p class="lead">Mahasiswa Teknik Informatika yang sedang membangun perjalanan di dunia teknologi, pemrograman, dan jaringan komputer. Selalu belajar, mencoba, dan berkembang.</p>
+    <div class="tags"><span class="tag">Informatika</span><span class="tag">Teknologi</span><span class="tag">Futsal</span></div>
+  </div>
+  <img class="hero-photo" src="images/desta-profile.png" alt="Foto Desta Al Ezarianto di luar ruangan">
+</header>
+
+<section id="tentang" class="about">
+  <div class="section-head"><div><div class="small-label">01 / Profil</div><h2>Tentang Saya</h2></div></div>
+  <div class="about-grid">
+    <p>Sedang menempuh pendidikan di bidang Teknik Informatika.</p>
+    <p>Saya tertarik mempelajari cara kerja komputer, jaringan, dan perangkat lunak. Website ini menjadi ruang pribadi untuk mendokumentasikan perjalanan belajar, kegiatan, dan proyek yang akan saya bangun.</p>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="section-head"><div><div class="small-label">02 / Momen</div><h2>Galeri Foto</h2></div><p>Beberapa potret dari keseharian dan kegiatan.</p></div>
+  <div class="gallery">
+    <figure class="tile"><img src="images/desta-profile.png" alt="Desta tersenyum saat berfoto di luar ruangan" loading="lazy"><figcaption>Di luar ruangan</figcaption></figure>
+    <figure class="tile"><img src="images/desta-casual.jpg" alt="Desta dalam suasana santai" loading="lazy"><figcaption>Momen santai</figcaption></figure>
+    <figure class="tile"><img src="images/desta-futsal.jpg" alt="Desta berpose di lapangan futsal" loading="lazy"><figcaption>Futsal</figcaption></figure>
+    <figure class="tile"><img src="images/desta-evening.jpg" alt="Desta berfoto pada malam hari" loading="lazy"><figcaption>Malam hari</figcaption></figure>
+    <figure class="tile"><img src="images/desta-friends.jpg" alt="Desta bersama seorang teman" loading="lazy"><figcaption>Bersama teman</figcaption></figure>
+  </div>
+</section>
+
+<section id="minat">
+  <div class="section-head"><div><div class="small-label">03 / Perjalanan</div><h2>Yang Sedang Saya Pelajari</h2></div></div>
+  <div class="project"><strong>Teknologi & pemrograman</strong><p>Mulai dari dasar coding, logika pemrograman, sistem komputer, hingga jaringan. Bagian ini bisa diperbarui seiring bertambahnya proyek dan pengalaman.</p></div>
+</section>
+</main>
+<footer><span>© 2026 Desta Al Ezarianto</span><span>Dibuat dengan HTML & CSS</span></footer>
+</div>
+</body>
+</html>
